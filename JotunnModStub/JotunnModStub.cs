@@ -15,8 +15,8 @@ namespace JotunnModStub
     //[NetworkCompatibility(CompatibilityLevel.EveryoneMustHaveMod, VersionStrictness.Minor)]
     internal class JotunnModStub : BaseUnityPlugin
     {
-        public const string PluginGUID = "com.jotunn.jotunnmodstub";
-        public const string PluginName = "JotunnModStub";
+        public const string PluginGUID = "valheim.votex09.testmod";
+        public const string PluginName = "TestMod";
         public const string PluginVersion = "0.0.1";
         
         // Use this class to add your own localization to the game
@@ -30,7 +30,7 @@ namespace JotunnModStub
             On.FejdStartup.Awake += FejdStartup_Awake;
             
             // Jotunn comes with its own Logger class to provide a consistent Log style for all mods using it
-            Jotunn.Logger.LogInfo("ModStub has landed");
+            Jotunn.Logger.LogInfo("TestMod has landed");
             
             // To learn more about Jotunn's features, go to
             // https://valheim-modding.github.io/Jotunn/tutorials/overview.html
